@@ -14,7 +14,7 @@ function iniciarSorteio() {
   document.getElementById('sorteio-button').disabled = true;
 
   // Preenche o array com os números desejados
-  for (var i = 0; i <= 100; i++) {
+  for (var i = 0; i <= 200; i++) {
     numeros.push(i);
   }
 

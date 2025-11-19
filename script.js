@@ -52,7 +52,7 @@ function pararSorteio() {
 
 // Gera os números na página
 var numerosDiv = document.getElementById('numeros');
-for (var i = 0; i <= 100; i++) {
+for (var i = 0; i <= 200; i++) {
   var numeroDiv = document.createElement('div');
   numeroDiv.innerHTML = i;
   numeroDiv.id = 'num-' + i;
